@@ -74,6 +74,11 @@ body {
 @media (min-width: 768px) {
   .features {
     flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .site-header {
+    padding: 4rem 1rem;
   }
 }
 

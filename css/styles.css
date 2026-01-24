@@ -23,11 +23,20 @@ body {
   border-radius: 6px;
 }
 
+
 /* Header */
 .site-header {
   padding: 2.5rem 1rem;
   text-align: center;
   background-color: #f1f5f9;
+}
+.site-header h1 {
+  font-size: 2rem;
+}
+.site-header p {
+  max-width: 480px;
+  margin: 0.75rem auto 0;
+  color: #555;
 }
 
 /* Features */
@@ -43,6 +52,8 @@ body {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
 }
+.feature h2 {
+  margin-bottom: 0.5rem;
 
 /* CTA */
 .cta {

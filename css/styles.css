@@ -25,7 +25,7 @@ body {
 }
 .btn:hover {
   background-color: #1e4fd8;
-  transform: translateY(-2px;
+  transform: translateY(-2px);
 }
 
 /* Header */
@@ -58,7 +58,7 @@ body {
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.featur:hover {
+.feature:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
@@ -89,10 +89,11 @@ body {
     max-width: 1000px;
     margin: 0 auto;
   }
+
   .site-header {
     padding: 4rem 1rem;
   }
-}
+  
 /* Blog list */
 .blog-list {
   padding: 2rem 1rem;
@@ -135,10 +136,11 @@ body {
 }
 
 /* Desktop layout */
-  .post-layout {
+   .post-layout {
     flex-direction: row;
     max-width: 1000px;
     margin: 0 auto;
+     gap: 2rem;
   }
 
   .post-content {
@@ -148,5 +150,4 @@ body {
   .sidebar {
     flex: 1;
   }
-}
-
+ }

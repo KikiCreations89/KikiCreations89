@@ -125,7 +125,6 @@ body {
 }
 
 /* Desktop layout */
-@media (min-width: 768px) {
   .post-layout {
     flex-direction: row;
     max-width: 1000px;

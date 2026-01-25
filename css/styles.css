@@ -21,9 +21,11 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 .btn:hover {
   background-color: #1e4fd8;
+  transform: translateY(-2px;
 }
 
 /* Header */
@@ -53,7 +55,14 @@ body {
   padding: 1.5rem;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
+
+.featur:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
 .feature h2 {
   margin-bottom: 0.5rem;
 }
@@ -70,7 +79,7 @@ body {
   padding: 1rem;
   text-align: center;
   font-size: 0.9rem;
-  color: #555;
+  color: #444;
 }
 
 /* Desktop layout */
@@ -108,7 +117,7 @@ body {
   padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .post-content {
@@ -116,6 +125,7 @@ body {
 }
 .post-content p {
   margin-bottom: 1rem;
+  line-height: 1.8;
 }
 
 .sidebar {

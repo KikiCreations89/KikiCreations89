@@ -16,6 +16,6 @@ I'm an aspiring front-end developer focused on building clean, responsive websit
 - Advanced responsive design
 - JavaScript fundamentals
 
-🌐 Portfolio: https://YOUR-PORTFOLIO-URL  
-💻 GitHub: https://github.com/KikiCreations89
+🌐 Portfolio: https://kikicreations89.github.io/KikiCreations89/
+💻 GitHub: https://github.com/KikiCreations89/KikiCreations89
 

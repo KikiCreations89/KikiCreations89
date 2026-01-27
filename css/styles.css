@@ -2,9 +2,9 @@
   index.html            ← homepage
   projects.html         ← projects page (lists all projects)
   blog.html             ← Project 2 article page (or blog homepage)
-  /project3-mymerch     ← Project 3 folder
+  /mymerch-landing-page     ← Project 3 folder
       index.html        ← MyMerch project live page
-      style.css
+      styles.css
       script.js
   /css
       styles.css        ← main portfolio CSS

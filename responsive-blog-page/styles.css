@@ -1,69 +1,52 @@
-/* ===========================
-   BLOG
-   =========================== */
+/* ===== BLOG LIST ===== */
 .blog-list {
-  padding: 2rem 1rem;
   max-width: 700px;
   margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
 }
 
+/* ===== POST PREVIEW CARD ===== */
 .post-preview {
-  margin-bottom: 2rem;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.post-preview h2 a {
-  color: #2563eb;
+.post-preview:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
 }
 
 .post-preview h2 {
+  font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
-.post-layout {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-  padding: 2rem 1rem;
+.post-preview a {
+  color: #2563eb;
 }
 
-.post-content {
-  max-width: 700px;
+.post-preview a:hover {
+  text-decoration: underline;
 }
 
-.post-content p {
-  margin-bottom: 1rem;
-  line-height: 1.8;
-  max-width: 65ch;
-}
-
-.sidebar {
-  padding: 1.5rem;
-  background: #f8fafc;
-  border-radius: 8px;
-}
-
-.sidebar h2 {
-  margin-bottom: 0.5rem;
-}
-
-.sidebar p {
-  font-size: 0.95rem;
+.post-preview p {
   color: #555;
+  font-size: 0.95rem;
 }
 
+/* ===== DESKTOP ENHANCEMENTS ===== */
 @media (min-width: 768px) {
-  .post-layout {
-    flex-direction: row;
-    max-width: 1000px;
-    margin: 0 auto;
-    gap: 2rem;
+  .blog-list {
+    padding: 4rem 1.5rem;
   }
 
-  .post-content {
-    flex: 3;
-  }
-
-  .sidebar {
-    flex: 1;
+  .post-preview h2 {
+    font-size: 1.5rem;
   }
 }

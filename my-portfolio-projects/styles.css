@@ -1,0 +1,53 @@
+/* ===== PROJECTS ===== */
+.project {
+  background-color: #ffffff;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.project p {
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.project .tech {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* ===== PROJECT LINKS ===== */
+.project a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* ===== DESKTOP SPACING ===== */
+@media (min-width: 768px) {
+  .project {
+    padding: 2.5rem 2.5rem;
+  }
+
+  .project h2 {
+    font-size: 1.75rem;
+  }
+}
+

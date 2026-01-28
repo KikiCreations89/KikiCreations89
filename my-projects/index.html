@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kimmy Kitty | My Projects</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Inter', system-ui, sans-serif; background:#f9fafb; color:#1f2937; line-height:1.6; }
 
-  <!-- IMPORTANT: relative paths -->
-  <link rel="stylesheet" href="styles.css" />
+/* Header */
+header { text-align:center; padding:4rem 1rem; background:#2563eb; color:#fff; }
+header h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+header p { font-size:1.2rem; opacity:0.85; }
+
+/* Container */
+main { max-width:1200px; margin:auto; padding:2rem 1rem; display:grid; gap:1.5rem; grid-template-columns:1fr; }
+@media(min-width:768px){ main { grid-template-columns: repeat(2,1fr); } }
+@media(min-width:1024px){ main { grid-template-columns: repeat(3,1fr); } }
+
+/* Project cards */
+.project-card { background:#fff; padding:2rem; border-radius:1rem; text-align:center; cursor:pointer; transition: transform 0.3s, box-shadow 0.3s; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+.project-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+.project-card h2 { margin-bottom:0.5rem; color:#1e3a8a; font-size:1.5rem; }
+.project-card p { color:#4b5563; font-size:1rem; }
+
+/* Reveal animation */
+.reveal { opacity:0; transform:translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+.reveal.visible { opacity:1; transform:translateY(0); }
+
+/* Footer */
+footer { text-align:center; padding:2rem 1rem; color:#6b7280; font-size:0.9rem; }
+footer a { color:#2563eb; text-decoration:none; }
+footer a:hover { text-decoration:underline; }
+</style>
 </head>
 <body>
 
-  <!-- HERO -->
-  <header class="hero reveal">
-    <h1>My Projects</h1>
-    <p>Simple, responsive, interactive frontend builds</p>
-  </header>
+<header class="reveal">
+  <h1>My Projects</h1>
+  <p>Interactive, responsive web projects demonstrating HTML, CSS & JavaScript skills</p>
+</header>
 
-  <!-- PROJECT LIST -->
-  <main class="container grid grid-3">
+<main>
+  <div class="project-card reveal" onclick="window.location.href='mymerch.html'">
+    <h2>MyMerch Store</h2>
+    <p>Product listing, pricing, and interactive add-to-cart buttons</p>
+  </div>
 
-    <a href="mymerch.html" class="card reveal">
-      <h2>MyMerch Store</h2>
-      <p>Product cards, pricing, add-to-cart interaction</p>
-    </a>
+  <div class="project-card reveal" onclick="window.location.href='blog-page.html'">
+    <h2>Blog Page</h2>
+    <p>Reading progress bar and mobile navigation menu</p>
+  </div>
 
-    <a href="blog-page.html" class="card reveal">
-      <h2>Blog Page</h2>
-      <p>Reading progress bar & mobile menu</p>
-    </a>
+  <div class="project-card reveal" onclick="window.location.href='landing-page.html'">
+    <h2>Landing Page</h2>
+    <p>Hero section, feature cards, and scroll-triggered animations</p>
+  </div>
 
-    <a href="landing-page.html" class="card reveal">
-      <h2>Landing Page</h2>
-      <p>Hero section, feature cards, scroll animation</p>
-    </a>
+  <div class="project-card reveal" onclick="window.location.href='flexbox-demo.html'">
+    <h2>Flexbox Demo</h2>
+    <p>Interactive flexbox layout examples for responsive design</p>
+  </div>
+</main>
 
-    <a href="flexbox-demo.html" class="card reveal">
-      <h2>Flexbox Demo</h2>
-      <p>Layout fundamentals with hover effects</p>
-    </a>
+<footer class="reveal">
+  <p>© 2026 Kimmy Kitty | <a href="https://github.com/KikiCreations89" target="_blank">GitHub</a></p>
+</footer>
 
-  </main>
+<script>
+// Scroll reveal animation
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){ entry.target.classList.add('visible'); }
+  });
+}, {threshold:0.2});
+reveals.forEach(el => observer.observe(el));
+</script>
 
-  <!-- JS -->
-  <script src="script.js" defer></script>
 </body>
 </html>
 

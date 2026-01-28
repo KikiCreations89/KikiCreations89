@@ -1,64 +1,57 @@
-/* =======================
+console.log("script.js loaded");
+
+/* =====================
    SCROLL REVEAL
-======================= */
-const revealObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add("visible");
-    }
-  });
-}, { threshold: 0.2 });
+===================== */
+const reveals = document.querySelectorAll(".reveal");
 
-document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+if (reveals.length) {
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
 
-/* =======================
-   ADD TO CART BUTTONS (MyMerch)
-======================= */
+  reveals.forEach(el => observer.observe(el));
+}
+
+/* =====================
+   ADD TO CART
+===================== */
 document.querySelectorAll(".action-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     btn.textContent = "Added ✓";
     btn.disabled = true;
-    btn.style.backgroundColor = "#16a34a"; // green
   });
 });
 
-/* =======================
-   MOBILE MENU TOGGLE (Blog)
-======================= */
+/* =====================
+   BLOG MENU TOGGLE
+===================== */
 const menuBtn = document.querySelector(".menu-btn");
 const sidebar = document.querySelector(".sidebar");
 
-if(menuBtn && sidebar){
+if (menuBtn && sidebar) {
   menuBtn.addEventListener("click", () => {
-    const isOpen = sidebar.classList.toggle("open");
-    menuBtn.setAttribute("aria-expanded", isOpen);
+    sidebar.classList.toggle("open");
   });
 }
 
-/* =======================
-   READING PROGRESS BAR (Blog)
-======================= */
+/* =====================
+   READING PROGRESS
+===================== */
 const progressBar = document.querySelector(".progress-bar");
 
-if(progressBar){
+if (progressBar) {
   window.addEventListener("scroll", () => {
-    const scrollTop = window.scrollY;
-    const docHeight = document.body.scrollHeight - window.innerHeight;
-    const scrollPercent = (scrollTop / docHeight) * 100;
-    progressBar.style.width = `${scrollPercent}%`;
+    const total = document.body.scrollHeight - window.innerHeight;
+    const percent = (window.scrollY / total) * 100;
+    progressBar.style.width = percent + "%";
   });
 }
-
-/* =======================
-   OPTIONAL: SMOOTH SCROLL FOR BUTTON LINKS
-======================= */
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if(target){
-      target.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-});
 

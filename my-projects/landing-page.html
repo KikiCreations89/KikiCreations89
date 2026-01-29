@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog Page | Kimmy Kitty</title>
-<link rel="stylesheet" href="../styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page | Kimmy Kitty</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
 <header class="reveal">
-  <h1>Blog Page</h1>
-  <p>Responsive blog layout with reading progress bar and mobile-friendly navigation</p>
+  <h1>Sample Landing Page</h1>
+  <p>Interactive hero section with feature cards and calls-to-action</p>
 </header>
 
 <main class="container">
+
+  <!-- Hero Section -->
   <section class="reveal">
-    <h2>About this project</h2>
-    <p>This blog page demonstrates a modern, responsive layout with semantic HTML, CSS styling, and JavaScript for reading progress and interactivity.</p>
+    <h2>Welcome to My Landing Page</h2>
+    <p>This landing page demonstrates responsive design, scroll-triggered animations, and interactive feature cards.</p>
   </section>
 
+  <!-- Feature Cards -->
   <section class="reveal">
-    <h2>Interactive Features</h2>
-    <div class="project-card reveal">
-      <h3>Reading Progress Bar</h3>
-      <p>Tracks how much of the article the user has read dynamically.</p>
-    </div>
-    <div class="project-card reveal">
-      <h3>Mobile Navigation</h3>
-      <p>Hamburger menu for easy navigation on smaller screens.</p>
-    </div>
-    <div class="project-card reveal">
-      <h3>Responsive Design</h3>
-      <p>Layout adapts to desktop, tablet, and mobile devices.</p>
+    <h2>Features</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <h3>Responsive Design</h3>
+        <p>Layout adapts to desktop, tablet, and mobile screens seamlessly.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <h3>Interactive Elements</h3>
+        <p>Hover effects and scroll reveal animations make it dynamic.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <h3>Call to Action</h3>
+        <p>Buttons provide click feedback and guide users intuitively.</p>
+      </div>
+
     </div>
   </section>
 
+  <!-- CTA Button -->
   <section class="reveal">
-    <h2>Skills Demonstrated</h2>
-    <p>HTML5, CSS3, JavaScript (DOM manipulation), responsive design, mobile-first approach, accessibility best practices</p>
+    <button class="project-card" onclick="window.location.href='../index.html'">Back to Portfolio</button>
   </section>
 
-  <section class="reveal">
-    <div>
-      <button onclick="window.history.back()" class="project-card">Back to Projects</button>
-    </div>
-  </section>
 </main>
 
 <footer class="reveal">
@@ -54,5 +58,4 @@
 <script src="../script.js"></script>
 </body>
 </html>
-
 

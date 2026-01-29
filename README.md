@@ -59,8 +59,9 @@ This portfolio demonstrates practical skills as a **junior frontend developer tr
 
 ## 📫 Connect
 
-- [GitHub Profile](https://github.com/KikiCreations89)  
-- Optional: LinkedIn or Email  
+- [GitHub Profile](https://github.com/KikiCreations89)
+- [LinkedIn](https://www.linkedin.com/in/kimberly-tullett-832763379)
+- [Email](https://kikicreations89@outlook.com) 
 
 ---
 

@@ -8,16 +8,7 @@ I am a **Personal Support Worker (PSW) transitioning into tech**, bringing the s
 
 ## 🔹 Projects
 
-### 1. Personal Portfolio Website
-A responsive portfolio site showcasing my projects, skills, and professional experience.  
-
-- **Live Demo:** [Portfolio Website](https://kikicreations89.github.io/KikiCreations89/my-portfolio/)  
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-portfolio)  
-- **Tech:** HTML • CSS • Flexbox • Grid • Responsive Design • Accessibility  
-
----
-
-### 2. MyMerch Store
+### 1. MyMerch Store
 A mobile-first redesign of a small merch store featuring responsive product cards, prices, and interactive add-to-cart functionality.  
 
 - **Live Demo:** [MyMerch Store](https://kikicreations89.github.io/KikiCreations89/my-projects/mymerch.html)  
@@ -26,7 +17,7 @@ A mobile-first redesign of a small merch store featuring responsive product card
 
 ---
 
-### 3. Responsive Blog Page
+### 2. Responsive Blog Page
 A mobile-first blog homepage emphasizing readability, semantic HTML, and interactive features like a reading progress bar and mobile-friendly navigation.  
 
 - **Live Demo:** [Responsive Blog Page](https://kikicreations89.github.io/KikiCreations89/my-projects/blog-page.html)  
@@ -35,7 +26,7 @@ A mobile-first blog homepage emphasizing readability, semantic HTML, and interac
 
 ---
 
-### 4. Landing Page
+### 3. Landing Page
 A clean, modern landing page showcasing hero sections, feature cards, and scroll-triggered animations.  
 
 - **Live Demo:** [Landing Page](https://kikicreations89.github.io/KikiCreations89/my-projects/landing-page.html)  
@@ -44,7 +35,7 @@ A clean, modern landing page showcasing hero sections, feature cards, and scroll
 
 ---
 
-### 5. Flexbox Demo
+### 4. Flexbox Demo
 A tutorial project demonstrating core Flexbox layouts with responsive sections and interactive elements.  
 
 - **Live Demo:** [Flexbox Demo](https://kikicreations89.github.io/KikiCreations89/my-projects/flexbox-demo.html)  

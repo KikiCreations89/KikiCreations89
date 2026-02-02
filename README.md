@@ -4,11 +4,6 @@ Welcome! 👋 I’m Kimmy Howie (GitHub: **KikiCreations89**), Frontend Portfoli
 
 I am a Personal Support Worker (PSW) transitioning into tech. My experience has given me skills in patience, attention to detail, problem-solving, and empathy, which I bring into building thoughtful, user-friendly, and accessible web applications.
 
-# 🎨 Kimmy Howie — Frontend Portfolio
-
-Welcome! 👋 This repository showcases my frontend projects built with **HTML, CSS, and JavaScript**.  
-Each project demonstrates responsive design, mobile-first principles, and clean, maintainable code.
-
 ---
 
 ## 🚀 Projects & Live Demos

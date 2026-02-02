@@ -4,44 +4,57 @@ Welcome! 👋 I’m Kimmy Howie (GitHub: **KikiCreations89**), Frontend Portfoli
 
 I am a Personal Support Worker (PSW) transitioning into tech. My experience has given me skills in patience, attention to detail, problem-solving, and empathy, which I bring into building thoughtful, user-friendly, and accessible web applications.
 
-Explore each project below with live demos and source code links.
+# 🎨 Kimmy Howie — Frontend Portfolio
+
+Welcome! 👋 This repository showcases my frontend projects built with **HTML, CSS, and JavaScript**.  
+Each project demonstrates responsive design, mobile-first principles, and clean, maintainable code.
 
 ---
 
-## 🚀 My Projects (Live Demos)
+## 🚀 Projects & Live Demos
 
-### 🏠 Portfolio Website
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/Portfolio/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/Portfolio
-
----
-
-### 🛍 eCommerce / Merch Page
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/eCommerce/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/eCommerce
+### 1. Personal Portfolio Website
+A responsive portfolio site showcasing my projects and frontend skills.
+- **Live Demo:** [Portfolio Website](https://kikicreations89.github.io/KikiCreations89/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89)
+- **Tech:** HTML • CSS • Flexbox • Grid • Responsive Design • Accessibility
 
 ---
 
-### 📖 Responsive Blog Layout
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/ResponsiveBlog/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/ResponsiveBlog
+### 2. MyMerch Store Redesign
+A mobile-first redesign of a merch store featuring responsive product cards.
+- **Live Demo:** [MyMerch Landing Page](https://kikicreations89.github.io/KikiCreations89/mymerch-landing-page/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/mymerch-landing-page)
+- **Tech:** HTML • CSS • Grid • Flexbox • JS • Responsive Design
 
 ---
 
-### 💡 Flexbox Tutorial
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/FlexboxDemo/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/FlexboxDemo
+### 3. Responsive Blog Layout
+A blog homepage emphasizing readability and responsive design.
+- **Live Demo:** [Responsive Blog Page](https://kikicreations89.github.io/KikiCreations89/responsive-blog-page/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/responsive-blog-page)
+- **Tech:** HTML • CSS • Flexbox • Media Queries • Mobile-First Design
 
 ---
 
-### ✨ Landing Page Example
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/LandingPage/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/LandingPage
+### 4. Understanding Flexbox Tutorial
+A tutorial project demonstrating core Flexbox layouts.
+- **Live Demo:** [Understanding Flexbox](https://kikicreations89.github.io/KikiCreations89/understanding-flexbox/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/understanding-flexbox)
+- **Tech:** HTML • CSS • Flexbox • Responsive Layout
+
+---
+
+### 5. Sample Landing Page
+A clean, responsive landing page showcasing modern layout and calls-to-action.
+- **Live Demo:** [Sample Landing Page](https://kikicreations89.github.io/KikiCreations89/sample-landing-page/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/sample-landing-page)
+- **Tech:** HTML • CSS • Responsive Design • Mobile-First Principles
 
 ---
 
 ## 📌 Tech Stack
 
-HTML • CSS • JavaScript • Flexbox • Grid • Responsive Web Design
+HTML • CSS • JavaScript • Flexbox • Grid • Responsive Design • Mobile-First • Accessibility
 
 ---
